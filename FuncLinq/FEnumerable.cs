@@ -5,6 +5,12 @@ using System.Text;
 
 namespace FuncLinq
 {
+    /// <summary>
+    /// So this is essentially MinLinq as implemented by Bart de Smet, but he used
+    /// an additional class, Option&lt;T&gt>, as the output from the functional enumerable,
+    /// and this uses another Func which will in turn, if called, return the Current value.
+    /// I'm blogging it soon. It'll become clear.
+    /// </summary>
     public static class FEnumerable
     {
         public static Func<Func<Func<T>>> Empty<T>()
