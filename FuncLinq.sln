@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncLinq", "FuncLinq\FuncLinq.csproj", "{CD741B0C-8617-419F-A1DF-AE780536BC10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncLinq.Tests", "FuncLinq.Tests\FuncLinq.Tests.csproj", "{F731ED95-0100-4350-AC4C-F6AFBAE45083}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A39A5FB8-9643-403B-9E70-6FFA6710BBB2}"
+	ProjectSection(SolutionItems) = preProject
+		FuncLinq.vsmdi = FuncLinq.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FuncLinq.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD741B0C-8617-419F-A1DF-AE780536BC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD741B0C-8617-419F-A1DF-AE780536BC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD741B0C-8617-419F-A1DF-AE780536BC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD741B0C-8617-419F-A1DF-AE780536BC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F731ED95-0100-4350-AC4C-F6AFBAE45083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F731ED95-0100-4350-AC4C-F6AFBAE45083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F731ED95-0100-4350-AC4C-F6AFBAE45083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F731ED95-0100-4350-AC4C-F6AFBAE45083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
